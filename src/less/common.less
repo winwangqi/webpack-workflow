@@ -1,0 +1,43 @@
+@import 'reset';
+
+/* 全局样式 */
+
+body {
+  max-width: 750px; /* no */
+  margin: 0 auto;
+  font-family: "PingFang SC", "STHeitiSC-Light", "Adobe 黑体 Std", "黑体", "Helvetica-Light", arial, sans-serif;
+}
+
+input,
+button,
+textarea,
+::-webkit-input-placeholder {
+  font-family: "PingFang SC", "STHeitiSC-Light", "Adobe 黑体 Std", "黑体", "Helvetica-Light", arial, sans-serif;
+}
+
+input, button {
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+i {
+  font-style: normal;
+}
+
+.pull-left {
+  float: left;
+}
+
+.clearfix {
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+/* /全局样式 */
